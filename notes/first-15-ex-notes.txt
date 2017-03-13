@@ -1,0 +1,114 @@
+
+Ex1: dust of that compiler
+
+	sth about printf(): 
+
+================================
+
+Ex2: using Makefile to build
+
+	makefile = simple way to organize the compilation of our code
+	Just declaring constant and adding rules :D
+	
+	cc: C compiler 
+	
+================================
+
+Ex 3: Formatted printing 
+
+================================
+
+Ex 4: GDB
+
+
+
+================================
+
+Ex 5: C Operators
+
+
+================================
+
+Ex 6: C Syntax
+
+	The technixal term for processing symbols & keywords of a 			programming laguage = lexical analysis.
+
+================================
+
+Ex 7: Var & types
+
+	unsigned datatype (for numbers) >> sacrifice a bit to represent sign, so the range will be shrinked as twice
+	
+================================
+
+Ex 8: If-else
+
+================================
+
+Ex 9: Loops & boolean expressions
+
+
+================================
+
+Ex 10: switch - case
+	
+	switch-case just apply to "single value"
+	
+
+================================
+
+Ex 11: Arrays & String
+
+	SHORTCUT: In C array, just init 1 element, C will take the rest
+	REMEMBER: to put \0 at the end of string 
+	FACTs: C doesn't differentiate between array of chars and string 
+	HACks: if array of char has 4 bytes long >>treat it as an integer?
+	>>>> Solution: of course, but depend on the Endianess:
+	
+		- Big-Endian: the right most bit is the smallest
+		- Little-Endian: reverse
+	>> Arrays are represented the same in the memory but the 	representation of the integer may vary
+	
+	
+================================
+
+Ex 12: Size & Arrays
+	
+	sizeof() = how big things are in bytes 
+	REMEMBER the process of creating String in C, String are immutable 
+	
+	
+================================
+
+Ex 13: for-loops and arrays of string
+
+	For loops:
+		initializer - khoi tri
+		test - dieu kien
+		code 
+		stepper - buoc so
+	
+	multi-dimensional array:
+	
+================================
+
+Ex 14: Writing & using functions
+	
+		
+================================
+
+Ex 15: Pointer
+	
+	pointer is an address that pooiting somewhere inside the memory of the comp
+	REMBEMBER: pointer has type because it's related to the size of each type
+					using pointer to:
+						- ask for chunks of memory (struct)
+						- pass large block of memory (struct) to a function
+						- take the address of a function>>use it as dynamic callback
+						- Scan complex chunk of memory 
+
+
+
+
+
+	

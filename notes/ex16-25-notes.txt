@@ -1,0 +1,14 @@
+====================================
+ex17 HEAP & STACK allocation
+
+	Heap vs Stack allocation
+
+		Stack : for temporary variable, these variable was created by the function and be used locally inside that function so we can call them as LOCAL VARIABLE.
+		these kind of variable pops out automatically after the function had done its work to PREVENT MEM LEAKs.
+
+		Heap: for malloc()
+
+====================================
+ex 18: Pointer to function 
+
+	int (*POINTER_NAME)( args come here)
